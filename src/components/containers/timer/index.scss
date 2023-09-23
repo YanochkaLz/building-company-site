@@ -1,0 +1,17 @@
+.timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    &-time{
+        font-size: 72px;
+        color: var(--orange-cl);
+        font-weight: 500;
+    }
+    &-prop {
+       color: black;
+       font-size: 36px; 
+       font-weight: 500;
+       margin-top: 25px;
+    }
+}
